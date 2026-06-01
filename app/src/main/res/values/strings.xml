@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BAOSP Panel</string>
+    <string name="quick_controls">Quick Controls</string>
+    <string name="speech_rate">Speech Rate</string>
+    <string name="speech_rate_slow">Slow</string>
+    <string name="speech_rate_normal">Normal</string>
+    <string name="speech_rate_fast">Fast</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="flashlight_on">Flashlight on</string>
+    <string name="flashlight_off">Flashlight off</string>
+    <string name="volume_up">Volume Up</string>
+    <string name="volume_down">Volume Down</string>
+    <string name="screen_reader_toggle">Screen Reader</string>
+    <string name="screen_reader_on">Screen reader on</string>
+    <string name="screen_reader_off">Screen reader off</string>
+    <string name="current_rate">Current speech rate: %s</string>
+    <string name="accessibility_service_desc">BAOSP Panel quick accessibility controls</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="center_horizontal" android:focusable="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/quick_controls" android:textSize="28sp"
+            android:textStyle="bold" android:contentDescription="@string/quick_controls"
+            android:layout_marginBottom="24dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/speech_rate" android:textSize="20sp"
+            android:contentDescription="@string/speech_rate" android:layout_marginBottom="12dp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center">
+            <Button android:id="@+id/btn_speech_slow" android:layout_width="0dp"
+                android:layout_height="64dp" android:layout_weight="1" android:layout_marginEnd="8dp"
+                android:text="@string/speech_rate_slow" android:textSize="18sp"
+                android:contentDescription="@string/speech_rate_slow" android:minHeight="64dp" />
+            <Button android:id="@+id/btn_speech_normal" android:layout_width="0dp"
+                android:layout_height="64dp" android:layout_weight="1"
+                android:layout_marginHorizontal="8dp" android:text="@string/speech_rate_normal"
+                android:textSize="18sp" android:contentDescription="@string/speech_rate_normal"
+                android:minHeight="64dp" />
+            <Button android:id="@+id/btn_speech_fast" android:layout_width="0dp"
+                android:layout_height="64dp" android:layout_weight="1" android:layout_marginStart="8dp"
+                android:text="@string/speech_rate_fast" android:textSize="18sp"
+                android:contentDescription="@string/speech_rate_fast" android:minHeight="64dp" />
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="?android:attr/listDivider" android:layout_marginVertical="20dp" />
+        <Button android:id="@+id/btn_flashlight" android:layout_width="match_parent"
+            android:layout_height="72dp" android:text="@string/flashlight_off"
+            android:textSize="20sp" android:contentDescription="@string/flashlight"
+            android:minHeight="72dp" android:layout_marginBottom="12dp" />
+        <Button android:id="@+id/btn_screen_reader" android:layout_width="match_parent"
+            android:layout_height="72dp" android:text="@string/screen_reader_on"
+            android:textSize="20sp" android:contentDescription="@string/screen_reader_toggle"
+            android:minHeight="72dp" android:layout_marginBottom="12dp" />
+        <Button android:id="@+id/btn_volume_up" android:layout_width="match_parent"
+            android:layout_height="72dp" android:text="@string/volume_up" android:textSize="20sp"
+            android:contentDescription="@string/volume_up" android:minHeight="72dp"
+            android:layout_marginBottom="12dp" />
+        <Button android:id="@+id/btn_volume_down" android:layout_width="match_parent"
+            android:layout_height="72dp" android:text="@string/volume_down" android:textSize="20sp"
+            android:contentDescription="@string/volume_down" android:minHeight="72dp" />
+    </LinearLayout>
+</ScrollView>
