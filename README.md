@@ -2,7 +2,7 @@
 
 [![Android CI — baosp-panel](https://github.com/tech-master33/baosp-panel/actions/workflows/android.yml/badge.svg)](https://github.com/tech-master33/baosp-panel/actions/workflows/android.yml)
 
-A quick-access control panel for BAOSP accessibility features — speech rate, flashlight, volume, and screen reader status — in one place. Part of the [BAOSP](https://github.com/tech-master33/baosp) ecosystem.
+A quick-access control panel for BAOSP accessibility features — speech rate, flashlight, volume, screen reader status, and enhanced accessibility customization — in one place. Part of the [BAOSP](https://github.com/tech-master33/baosp) ecosystem.
 
 ## Download
 
@@ -17,6 +17,8 @@ You can also find standalone builds on the [releases page](https://github.com/te
 - **Flashlight toggle** — turn the camera flash on/off as a torch, announced aloud
 - **Volume up/down** — raise or lower media volume without navigating to system settings
 - **Screen reader status** — shows whether baosp-screenreader is active; tap to open Accessibility settings
+- **Accessibility customization** — enhanced gesture controls and vibration feedback settings
+- **Voice announcements** — all controls provide immediate speech feedback
 - **Overlay panel** — accessible from any app via the quick-access service
 - **All controls voiced** — every action spoken aloud so no visual feedback is needed
 
@@ -67,7 +69,8 @@ baosp-panel is part of BAOSP — an accessible Android platform for blind and vi
 | [aoler](https://github.com/tech-master33/aoler) | Accessible home screen launcher |
 | [baosp-clock](https://github.com/tech-master33/baosp-clock) | Accessible clock, alarm, timer |
 | [baosp-calc](https://github.com/tech-master33/baosp-calc) | Accessible calculator |
-| **[baosp-panel](https://github.com/tech-master33/baosp-panel)** | **Quick-access control panel (this repo)** |
+| [baosp-braille](https://github.com/tech-master33/baosp-braille) | Bluetooth HID Braille display driver |
+| **[baosp-panel](https://github.com/tech-master33/baosp-panel)** | **Quick-access control panel with enhanced features (this repo)** |
 
 All APKs are bundled together and published every night at  
 **[github.com/tech-master33/baosp/releases/tag/nightly](https://github.com/tech-master33/baosp/releases/tag/nightly)**
